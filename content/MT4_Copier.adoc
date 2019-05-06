@@ -1,0 +1,104 @@
+:imagesdir: copier
+
+= MT4 Trade Copier Plugin for WordPress
+
+*MT4 Copier* plugin for *WordPress* allows easily copy trades from master *Forex* account to slave accounts.
+
+//Try our simple and reliable automated Forex trading solution.
+Install the *MT4 Copier* plugin and get benefits from orders copying or set up your own signal providind business.
+
+== How to Add Master Account
+1. Select the *MT4 Copier* item in the *WordPress* administration panel.
+2. Click the *Add Master* button in the top panel.
+3. At the appeared page you can select account from the dropdown menu. All accounts previously added by means of the *MT4 Accounts WordPress* plugin are in that list.
+4. You also can add new account to the selected scope. Select the broker from the *Broker* dropdown list.
+5. Set the *Title*, *Account Number* and *Password* in the correspondence fields.
+6. Set the *Title*, *Account Number* and *Password* in the corresponding fields.
+7. Select API server in the *Api Server* field.
+8. Specify user and click *Save Changes*.
+
+image::add_master.png[caption="Figure 1. ",title="Add Master Account",alt="dev4trades.com"]
+
+
+== How to Add Slave Account
+1. Select the *MT4 Copier* item in the *WordPress* administration panel.
+2. Click the *Add Slave* button in the top panel.
+3. Select existing account from the dropdown menu or add the new one.
+4. Select the broker from the *Broker* dropdown list.
+5. Set account name in the *Title* field. Specify *Account Number* and *Password* in the correspondence fields.
+6. Select API server in the *Api Server* field.
+7. Specify user in the *User* field.
+8. Select risk type for the account:
+* _Multiplier_ allows set multiplier factor for the slave account.
+* _Fixed Lots_ allows specify fixed size of lots for trading.
+* _Money Ratio_ allows set proportion of lot size and amount of money.
+9. Click *Save Changes*.
+
+image::add_slave.png[caption="Figure 2. ",title="Add Slave Account",alt="dev4trades.com"]
+
+== How to Add New Scope
+For convenience all slave and master *Metatrader* accounts can be grouped to the scopes.
+
+1. Select the *MT4 Copier* item in the *WordPress* administration panel.
+2. Click the *Add Scope* button in the top panel.
+3. Set the key in the *Scope Key* field.
+4. Specify the scope name in *Title*.
+5. Set appropriate values in the *Min Balance*, *Fixed Lot*, *Lots Multiplier*, *Price Diff Pips* fields.
+6. If you want to adjust lots on balance check the box.
+7. Select *Day Trading* or *Scalping* mode in the *Copier Mode* dropdown list.
+8. Specify pairs matching if necessary.
+9. Click *Save Changes*.
+
+image::add_scope.png[caption="Figure 3. ",title="Add Scope",alt="dev4trades.com"]
+
+== How to Filter Accounts in Scope
+
+Each scope is located in the separate tab. To switch between scopes, just select the tab with the required scope name.
+
+image::switch_scope.png[caption="Figure 4. ",title="Select Scope",alt="dev4trades.com"]
+
+Master and slave accounts in the scope can be filtered by one of the following states:
+
+* _All_ - all accounts are displayed.
+* _Enabled_ - only enabled accounts are displayed.
+* _Enabled & Online_ - only enabled accounts which are online will be displayed.
+* _Disabled_ - only disabled accounts are displayed.
+
+== How to Edit Scope Settings
+
+1. Select the *MT4 Copier* item in the *WordPress* administration panel.
+2. Select the tab with the required scope name.
+3. Click the *Edit Scope Settings* button.
+4. At the appeared page make necessary changes in the scope settings and click *Save Changes*.
+
+image::edit_scope.png[caption="Figure 5. ",title="Edit Scope",alt="dev4trades.com"]
+
+== How to View Orders for Account
+
+1. Select the tab containing the required master or slave account.
+2. Find the acccount in the list and hover the mouse pointer over it's name.
+3. Click *View Orders*.
+
+image::view_orders.png[caption="Figure 6. ",title="View Orders",alt="dev4trades.com"]
+
+Appeared page contais the table of detailed information for each accont order.
+
+image::list_of_orders.png[caption="Figure 7. ",title="List of Orders",alt="dev4trades.com"]
+
+At the opened page the following controls are available for the account orders management:
+
+* The *Close All* button at the top of the page allows close all opened orders.
+* The *All*, *Open*, *Closed* filter options allow filter orders by the state.
+
+== How to Use Bulk Actions for Accounts
+
+You can apply some actions to all accounts selected in the list.
+Following actions are available:
+* _Restart_ allows restart all selected accounts.
+* _Enable_ allows enable all selected accounts.
+* _Disable_ allows disable all selected accounts.
+* _Delete_ allows disable all selected accounts.
+
+Mark accounts in the list, select the action from the dropdown list and click the *Apply* button.
+
+image::bulk_actions_accounts.png[caption="Figure 8. ",title="Bulk Actions",alt="dev4trades.com"]
