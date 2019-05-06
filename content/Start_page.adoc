@@ -1,0 +1,16 @@
+
+= Metatrader WordPress Integration
+
+If you work with several *Metatrader* accounts and want control all of them from one place, try our new plugins for *WordPress*.
+
+You’ll get opportunities to gather *MetaTrader* statistics, automate *Forex* robots running process, copy orders, create complex trading systems and advanced analytics for them.
+
+Simple settings allow you to see accounts activity, restart them at any time, enable or disable one by one or all together.
+
+Our service provides the following *WordPress* plugins for *Metatrader*:
+//add links to correspondent pages
+
+* _MT4 Brokers_ allows add and set up broker servers. Also you can change some setting at any time.
+* _MT4 Accounts_ allows add VPS, add new MT4 accounts, filter, supervise and specify any  settings.
+* _MT4 Experts_ allows automate running of expert advisors for *Metatrader* accounts and configure templates with unique settings for any *Forex* robot.
+* _MT4 Copier_ allows add master and slave accounts, groupe them into the scopes and arrange copying trades from master *Forex* account to slave accounts.

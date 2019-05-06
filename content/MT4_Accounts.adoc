@@ -1,0 +1,52 @@
+:imagesdir:: accountimages
+
+= MT4 Accounts Plugin
+
+*MT4 Accounts* plugin allows add VPS and new *Metatrader* accounts, specify settings and control several accounts from the single place. 
+
+== Adding New MT4 Account
+
+To add new account:
+
+1.	Select the *MT4 Accounts* item in the *WordPress* administration panel.
+2.	Click the *Add New Account* button.
+3.	Specify the following settings:
+
+    •   _Server_ – broker server name (select from the dropdown list)
+    •	_Title_ – account name
+    •	_Account Number_ – account number
+    •	_Password_ – account password
+    •	_User_ – account user name (select from the dropdown list)
+
+ 
+4.	Click *Save Changes*. The newly created account will appear in the list.
+
+image::AddingNewMT4Account.png[caption="Figure 1. ",title="Adding New MT4 Account",alt="dev4traders.com"] 
+
+== Filtering MT4 Accounts
+There are several filtering options for accounts available at the *MT4 Accounts* page.
+
+To filter the list by state, select one of the following options:
+
+•	All
+•	Online
+•	Offline
+•	Invalid
+•	Suspended
+•	Connecting
+•	Removing
+•   Trade not allowed
+
+image::FilteringMT4Accounts.png[caption="Figure 2. ",title="Filtering MT4 Accounts",alt="dev4traders.com"] 
+
+== Supervising Accounts
+Different actions are available for the accounts at the *MT4 Accounts* page.
+When you hover the mouse pointer over the account name, you will see the following menu items:
+
+•	_Edit_ – allows change the account settings.
+•	_Delete_ – allows delete account.
+•	_Restart_ – allows stop and start again the selected account.
+•	_View Errors_ – allows view all account order errors.
+•	_View Orders_ – allows view detailed information for all account orders.
+
+image::SupervisingAccounts.png[caption="Figure 3. ",title="Supervising Accounts",alt="dev4traders.com"]

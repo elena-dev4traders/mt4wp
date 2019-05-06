@@ -1,0 +1,34 @@
+:imagesdir:: accountimages
+
+= MT4 Brokers Plugin
+
+*MT4 Brokers* plugin for *WordPress* provide opportunities to add and set up different broker servers.
+
+To add new MT4 broker server:
+
+1.	Select the *MT4 Brokers* item in the *WordPress* left side panel.
+2.	Click the *Browse…* button and select zip file with settings.
+3.	Then click the *Import srv (zip)* button.
+
+image::addnewbrokerserver.png[caption="Figure 1. ",title="Adding New Broker Server",alt="dev4traders.com"] 
+
+Main page contains the list of all imported broker servers.
+ 
+Here you can filter the list of the broker servers by state selecting *Enabled* or *Disabled* item.
+
+When you hover the mouse pointer over the selected broker server, you can edit, delete, enable or disable it.
+
+To change broker server settings, select the server name in the list or click *Edit* under it's name.
+
+image::ChangingBrokerServerSettings.png[caption="Figure 2. ",title="Changing Broker Server Settings",alt="dev4traders.com"] 
+
+On the appeared page, you can change the following settings:
+
+•	SRV File
+•	GMT Offset
+•	Group Title
+•	Pairs Matching
+ 
+Also, you can add new broker server at this page by clicking *Add New* button and specifying all settings.
+
+To get back to the list of broker servers, click *Save Changes*.

@@ -1,0 +1,17 @@
+= MT4 Plugins Installation
+
+First of all you need to install all *MT4* plugins for *WordPress*.
+
+1.	Download the plugin (.zip file) from the site (http://dev4traders.com).
+2.	Log in to your *WordPress* Admin panel.
+3.	In your *WordPress* administration panel, go to menu *Plugins > Add New*.
+4.	Select the *Upload plugin* tab.
+5.	Upload the .zip file you just downloaded.
+6.	Activate the plugin.
+
+A new settings section with the name of the installed plugin will appear in the leftside panel.
+
+Repeat these actions for all of the following plugins: *MT4 Brokers*, *MT4 Accounts*, *MT4 Experts*, *MT4 Copier*.
+
+Now you are ready to get started!
+//add link to 'get started' page

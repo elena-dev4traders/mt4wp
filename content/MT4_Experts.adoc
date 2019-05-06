@@ -1,0 +1,41 @@
+:imagesdir:: accountimages
+
+= MT4 Experts Plugin
+
+The *MT4 Experts* plugin allows automate running of expert advisors for the *Metatrader* accounts. 
+Also, you can specify unique settings for any *Forex* robot by templates configuration.
+
+== Adding New Expert
+
+To add new expert:
+
+1. Select the *MT4 Experts* item in the *WordPress* administration panel.
+2. Click *Add Expert*.
+3. At the appeared page specify expert settings.
+
+* _Ex4 file_ - browse the file containing expert advisor's code.
+    
+* _Tpl file_ - browse the file containing default template for the expert advisor.
+4. Click *Save Changes*.
+
+
+image::add_new_expert.png[caption="Figure 1. ",title="Add New Expert", alt="dev4traders.com"]
+
+
+Each new added account expert is displayed in the separate tab of the main *MT4 Experts* page.
+
+== Configuring Expert Template
+
+Template configuration allows specify unique settings for each expert. *MT4 Experts* plugin provides default template, which you can use as is or change in yours discretion.
+
+To create new expert template:
+
+1. Select tab with the desired expert at the main *MT4 Experts* page.
+2. Click *Add Template*.
+3. From the gropdown list select one of the existing *Metatrader* accounts, where your robot will trade.
+4. In the *Pair* text field specify trading pair.
+5. In the *Timeframe* field set the desired timeframe.
+6. The default expert template is appeared in the *Options* field. You can edit it in accordance with you requirements.
+7. Click the *Save Changes* button.
+
+image::add_new_template.png[caption="Figure 2. ",title="Add New Template", alt="dev4traders.com"]
